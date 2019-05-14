@@ -1,47 +1,50 @@
- <!--#include file="partials/header.shtml" -->
+<!--#include file="partials/header.shtml" -->
 
 <main>
     <div class="container">
-        <div class="row align-items-center justify-content-center">            
-            <form class="form-horizontal" action="administration.html" method="post">
+        <div class="row align-items-center justify-content-center">
+            <form class="form-horizontal border border-primary rounded" action="administration.html" method="post">
                 <fieldset>
                     <!-- Form Name -->
-                    <legend>Formulaire d'Authentification</legend>      
+                    <legend class="col-12 text-center mb-2">Formulaire d'Authentification</legend>
                     <!-- Entrer le login-->
                     <div class="form-group">
-                        <label class="col-12 control-label" for="login_input">Identifiant ou adresse e-mail</label>  
+                        <label class="col-12 control-label" for="login_input">Identifiant ou adresse e-mail</label>
                         <div class="col-12">
-                        <input id="login_input" name="login_input" type="text" placeholder="Login" class="form-control input-md" required="">
-                        <span class="help-block">Renseignez votre login fourni par votre administrateur.</span>  
+                            <input id="login_input" name="login_input" type="text" placeholder="Login"
+                                class="form-control input-md" required="">
+                            <span class="help-block">Renseignez votre login fourni par votre administrateur.</span>
                         </div>
-                    </div>                   
+                    </div>
                     <!-- Entrer le mot de pass-->
                     <div class="form-group">
                         <label class="col-12 control-label" for="password_input">Mot de passe</label>
                         <div class="col-12">
-                        <input id="password_input" name="password_input" type="password" placeholder="Mot de passe" class="form-control input-md" required="">
-                        <span class="help-block">Renseignez le mot de passe fourni par votre administrateur</span>
+                            <input id="password_input" name="password_input" type="password" placeholder="Mot de passe"
+                                class="form-control input-md" required="">
+                            <span class="help-block">Renseignez le mot de passe fourni par votre administrateur.</span>
                         </div>
                     </div>
-                    
+
                     <!-- Partie se souvenir de moi pour mémoriser les crédentials -->
                     <div class="form-group">
                         <label class="col-12 control-label" for="checkboxe_se_souvenir"></label>
                         <div class="col-12">
-                        <label class="checkbox-inline" for="checkboxe_se_souvenir">
-                            <input type="checkbox" name="checkboxe_se_souvenir" id="checkboxe_se_souvenir" value="">
-                            Se souvenir de moi ?
-                        </label>
+                            <label class="checkbox-inline" for="checkboxe_se_souvenir">
+                                <input type="checkbox" name="checkboxe_se_souvenir" id="checkboxe_se_souvenir" value="">
+                                Se souvenir de moi ?
+                            </label>
                         </div>
-                    </div>                 
+                    </div>
                     <!-- Button -->
-                        <div>
-                        <button id="Button_se-connecter" name="Button_se-connecter" class="btn btn-success">Se connecter</button>
+                    <div class="col-12">
+                        <button id="Button_se-connecter" name="Button_se-connecter" class="btn btn-success">Se
+                            connecter</button>
                         <button id="Button_reset" name="Button_reset" class="btn btn-danger" type="reset">Reset</button>
-                    </div>           
+                    </div>
                 </fieldset>
-            </form>                 
+            </form>
         </div>
     </div>
 </main>
- <!--#include file="partials/footer.shtml" -->
+<!--#include file="partials/footer.shtml" -->

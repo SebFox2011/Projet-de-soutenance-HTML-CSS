@@ -1,50 +1,91 @@
- <!--#include file="partials/header.shtml" -->
- <h3 class="text-center mb-5">Semaine du 10 au 20 mai 2019</h3>
- <div class="container">
-      <div class="row align-items-center mb-2">
-         <div class="col-12 col-md-6">
-            <div class="row align-items-top">
-               <div class="col-6 contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="Image Rennes jardin confluence" width="100%"></div>
-               <div class="col-6">
-                  <h4>Balade au bord de la Vilaine</h4>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <a class="btn btn-primary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
-               </div>
+<!--#include file="partials/header.shtml" -->
+<div class="container">
+   <div class=row">
+      <nav class="col-12 navbar-static-top navbar-light bg-primary navbar navbar-expand-lg  mb-5">
+         <a class="navbar-brand" href="#">Accueil</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link " href="#">Actualités<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="#">Bons plans <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Médias</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#"> <span class="sr-only"></span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Nous contacter</a>
+               </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+               <input class="form-control mr-sm-2" type="search" placeholder="Votre Recherche" aria-label="Search">
+               <button class="btn btn-primary my-2 my-sm-0" type="submit">Rechercher</button>
+            </form>
+         </div>
+      </nav>
+   </div>
+</div>
+<h3 class="text-center mb-5">Semaine du 10 au 20 mai 2019</h3>
+<div class="container">
+   <div class="row align-items-center mb-2">
+      <div class="col-12 col-md-6 mb-1">
+         <div class="row align-items-top">
+            <div class="col-6 contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="Image Rennes jardin confluence"
+                  width="100%"></div>
+            <div class="col-6">
+               <h4>Balade au bord de la Vilaine</h4>
+               <span><em> 10 mai 2019 de 10h à 18h</em></span>
+               <p>Lorem ipsum dolor sit amet.</p>
+               <a class="btn btn-primary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
             </div>
          </div>
-      <div class="col-12 col-md-6">
+      </div>
+      <div class="col-12 col-md-6 mb-1">
          <div class="row align-items-top">
             <div class="col-6 contain"><img src="img/conference.jpg" alt="Image de conference" width="100%"></div>
             <div class="col-6">
-               <h4>Conférence</h4>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               <h4>Conférence</h4><br>
+               <span><em>12 mai 2019 à 20h</em></span>
+               <p>Lorem, ipsum dolor.</p>
                <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
-         </div>  
-      </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-12 col-md-6">
-         <div class="row align-items-top">
-            <div class="col-6 contain"><img src="img/rennes lices.jpg" alt="Image de Rennes place des Lices" width="100%"></div>
-            <div class="col-6">
-               <h4>Visite du centre ville de Rennes</h4>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
-            </div>   
          </div>
       </div>
-      <div class="col-12 col-md-6">
+   </div>
+   <div class="row mb-2">
+      <div class="col-12 col-md-6 mb-1">
          <div class="row align-items-top">
-            <div class="col-6 contain"><img src="img/parlement.jpeg" alt="Image du Parlement de Bretagne" width="100%"></div>
+            <div class="col-6 contain"><img src="img/rennes lices.jpg" alt="Image de Rennes place des Lices"
+                  width="100%"></div>
             <div class="col-6">
-               <h4>Visite du Parlement</h4>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               <h4>Visite du centre ville de Rennes</h4>
+               <span><em>14 mai 2019 de 11h à 20h</em></span>
+               <p>Lorem, ipsum.</p>
+               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-12 col-md-6 mb-1">
+         <div class="row align-items-top">
+            <div class="col-6 contain"><img src="img/parlement.jpeg" alt="Image du Parlement de Bretagne" width="100%">
+            </div>
+            <div class="col-6">
+               <h4>Visite du Parlement</h4><br>
+               <span><em>16 mai 2019 de 14h à 16h</em></span>
+               <p>Lorem, ipsum dolor.</p>
                <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
          </div>
       </div>
    </div>
 </div>
-    
-      <!--#include file="partials/footer.shtml" -->
+
+<!--#include file="partials/footer.shtml" -->

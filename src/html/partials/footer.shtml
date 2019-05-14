@@ -1,25 +1,26 @@
-    <footer class="container mt-5">
-      <div class="row align-items-center">
-        <p class="col-12 text-right">Design by me wih love :)</p>
-      </div>
-    </footer>
+<footer class="container mt-5">
+  <div class="row align-items-center">
+    <p class="col-12 text-right">Design by me wih love :)</p>
+  </div>
+</footer>
 
-    <script src="../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-          .create( document.querySelector( '#editor1' ), {
-              toolbar: [ 'heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote' ],
-              heading: {
-                  options: [
-                      { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
-                      { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
-                      { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
-                  ]
-              }
-          } )
-          .catch( error => {
-              console.log( error );
-          } );
-    </script>
-  </body>
+<script src="../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script>
+  ClassicEditor
+    .create(document.querySelector('#editor1'), {
+      toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote','|'],
+      heading: {
+        options: [
+          { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
+          { model: 'heading1', view: 'h1', title: 'Heading 1', class: 'ck-heading_heading1' },
+          { model: 'heading2', view: 'h2', title: 'Heading 2', class: 'ck-heading_heading2' }
+        ]
+      }
+    })
+    .catch(error => {
+      console.log(error);
+    });
+</script>
+</body>
+
 </html>
