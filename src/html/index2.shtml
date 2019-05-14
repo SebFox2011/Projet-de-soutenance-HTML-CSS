@@ -1,0 +1,18 @@
+ <!--#include file="partials/header.shtml" -->
+ <h3 class="text-center mb-5">Semaine du 10 au 20 mai 2019</h3>
+ <div class="container">
+     <div class="row align-items-center mb-2">
+          <div class="col-6" contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="" width="100%"></div>
+          <div class="col-6">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint assumenda aspernatur voluptates? Nesciunt fugit natus pariatur laborum quasi fugiat magni esse maiores? Minima amet commodi voluptatum nulla fugit impedit facilis.
+               </p> 
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum culpa, nihil amet officia ut aperiam repellendus nostrum magni accusamus rerum minus iusto aliquid corporis porro consequatur odit impedit! Magni, quibusdam.
+               </p> 
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda blanditiis earum repudiandae molestiae officia reiciendis
+                    </p> 
+          </div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint assumenda aspernatur voluptates? Nesciunt fugit natus pariatur laborum quasi fugiat magni esse maiores? Minima amet commodi voluptatum nulla fugit impedit facilis.
+     </p> 
+</div> 
+      <!--#include file="partials/footer.shtml" -->

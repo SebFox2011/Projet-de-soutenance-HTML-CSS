@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Bons Plans Rennes</title>
+</head>
+<body>
+<header class="container mb-5">
+  <div class="row align-items-center">
+    <h1 class="col-8 text-left">RENNES sorties - Bons plans</h1>
+    <div class="col-4">
+      <img class="float-right" src="img/icone.png" alt="Icone du bandeau d entete">
+    </div>
+    
+  </div>
+</header>
+<body>
+  
