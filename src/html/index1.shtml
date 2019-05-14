@@ -1,38 +1,50 @@
  <!--#include file="partials/header.shtml" -->
  <h3 class="text-center mb-5">Semaine du 10 au 20 mai 2019</h3>
  <div class="container">
-        <div class="row align-items-center mb-2">
+      <div class="row align-items-center mb-2">
          <div class="col-12 col-md-6">
-            <div class="row align-items-center">
-                 <div class="col-6 contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="" width="100%"></div>
-                 <div class="col-6">
-                    <h4>Balade au bord de la Vilaine</h4>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <a class="btn btn-primary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
-                  </div>
-            </div>
-         </div>
-         <div class="col-12 col-md-6">
-            <div class="row align-items-center">
-                <div class="col-6 contain"><img src="img/conference.jpg" alt="" width="100%"></div>
-                <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda blanditiis earum repudiandae molestiae officia reiciendis,</div>
-            </div>  
-         </div>
-    </div>
-    <div class="row mb-2">
-            <div class="col-12 col-md-6">
-               <div class="row align-items-center">
-                    <div class="col-6 contain"><img src="img/rennes lices.jpg" alt="" width="100%"></div>
-                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda blanditiis earum repudiandae molestiae officia reiciendis</div>
+            <div class="row align-items-top">
+               <div class="col-6 contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="Image Rennes jardin confluence" width="100%"></div>
+               <div class="col-6">
+                  <h4>Balade au bord de la Vilaine</h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <a class="btn btn-primary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
                </div>
             </div>
-            <div class="col-12 col-md-6">
-               <div class="row align-items-center">
-                    <div class="col-6 contain"><img src="img/parlement.jpeg" alt="" width="100%"></div>
-                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda blanditiis earum repudiandae molestiae officia reiciendis,</div>
-                </div>
+         </div>
+      <div class="col-12 col-md-6">
+         <div class="row align-items-top">
+            <div class="col-6 contain"><img src="img/conference.jpg" alt="Image de conference" width="100%"></div>
+            <div class="col-6">
+               <h4>Conférence</h4>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
-       </div>
+         </div>  
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-12 col-md-6">
+         <div class="row align-items-top">
+            <div class="col-6 contain"><img src="img/rennes lices.jpg" alt="Image de Rennes place des Lices" width="100%"></div>
+            <div class="col-6">
+               <h4>Visite du centre ville de Rennes</h4>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+            </div>   
+         </div>
+      </div>
+      <div class="col-12 col-md-6">
+         <div class="row align-items-top">
+            <div class="col-6 contain"><img src="img/parlement.jpeg" alt="Image du Parlement de Bretagne" width="100%"></div>
+            <div class="col-6">
+               <h4>Visite du Parlement</h4>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
     
       <!--#include file="partials/footer.shtml" -->

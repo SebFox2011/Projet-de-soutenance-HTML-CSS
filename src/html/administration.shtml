@@ -36,7 +36,10 @@
           <h2>Gestions des contenus</h2>
       </div>
       <div class="col-8">
-        <h2>Icones + - Modifier Publier</h2>     
+        <button class="col-2 btn-primary">Ajouter</button>
+        <button class="col-2 btn-primary">Supprimer</button>
+        <button class="col-2 btn-primary">Modifier</button>
+        <button class="col-2 btn-primary">Publier</button>  
       </div>
     </div>
     <div class="row align-items-center mb-5">
@@ -45,13 +48,14 @@
       <button class="col-2 btn-primary">Rechercher</button>
     </div>
     <div class="row align-items-center">
-      <table class="table table-bordered table-striped table-condensed">
+      <table class="table table-bordered table-striped table-sm">
           <caption>
           <h4>Gestion des contenus</h4>
           </caption>
           <thead>
             <tr>
               <th>Id</th>
+              <th>Image</th>
               <th>Titre</th>
               <th>Statut</th>
               <th>Author</th>
@@ -59,43 +63,49 @@
             </tr>
           </thead>
             <tbody>
-              <tr class="success">
+              <tr>
                 <td><input type="checkbox" name="checkbox1" id="checkbox1"></td>
+                <td><img src="img/Rennes_Jardin_Confluence.jpg" alt="Image Rennes jardin confluence" width="30%"></td>
                 <td>Balade au bord de la Vilaine</td>
                 <td>Publié</td>
                 <td>Administrateur</td>
                 <td>Commentaire 1</td>
               </tr>
-              <tr class="danger">
+              <tr>
                   <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
+                  <td><img src="img/conference.jpg" alt="Image de conference" width="30%"></td>
                   <td>Conférence</td>
                   <td>Publié</td>
                   <td>Administrateur</td>
                   <td>Commentaire 2</td>
               </tr>
-              <tr class="warning">
+              <tr>
                   <td><input type="checkbox" name="checkbox3" id="checkbox3"></td>
+                  <td><img src="img/rennes lices.jpg" alt="Image de Rennes place des Lices" width="30%"></td>
                   <td>Visite du centre ville de Rennes</td>
                   <td>Publié</td>
                   <td>Administrateur</td>
                   <td>Commentaire 3</td>
               </tr>
-              <tr class="active">
+              <tr>
                   <td><input type="checkbox" name="checkbox4" id="checkbox4"></td>
+                  <td><img src="img/parlement.jpeg" alt="Image du Parlement de Bretagne" width="30%"></td>
                   <td>Visite du Parlement</td>
                   <td>Publié</td>
                   <td>Administrateur</td>
                   <td>Commentaire 4</td>
               </tr>
-              <tr class="success">
+              <tr>
                   <td><input type="checkbox" name="checkbox5" id="checkbox5"></td>
+                  <td><img src="img/metro.jpg" alt="Image du metro de Rennes" width="30%"></td>
                   <td>Visite de la station métro Colombier</td>
                   <td>Brouillon</td>
                   <td>Administrateur</td>
                   <td>Commentaire 5</td>
               </tr>
-              <tr class="danger">
+              <tr>
                   <td><input type="checkbox" name="checkbox6" id="checkbox6"></td>
+                  <td><img src="img/digital_campus1.jpg" alt="Image du Digital Campus" width="30%"></td>
                   <td>AfterWork au Digital Campus de Rennes</td>
                   <td>Brouillon</td>
                   <td>Administrateur</td>
