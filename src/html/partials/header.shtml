@@ -11,23 +11,12 @@
 </head>
 
 <body>
-  <header class="container-fluid mb-5">
-
-    <!-- <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-5 text-center">Bons Plans Rennes</h1>
-          <img class="float-right" src="img/icone.png" alt="Icone du bandeau d entete">
-        </div>
-      </div>-->
-
-
+  <header class="container-fluid fixed-top">
     <div class="row align-items-center">
       <h1 class="col-12 col-sm-8 text-right">Bons Plans Rennes</h1>
       <div class="col-12 col-sm-4">
         <img class="float-right" src="img/icone.png" alt="Icone du bandeau d entete">
       </div>
-
     </div>
   </header>
-
-<body>
+  <main>

@@ -1,86 +1,84 @@
 <!--#include file="partials/header.shtml" -->
-<div class="container">
+<div class="container marge">
+
 
         <h3 class="text-center m-5">Edition de l'article</h3>
+<div class="row ">
 
-    <div class="row ">
-        <form class="col-8">
-            <textarea name="editor1" id="editor1" placeholder="Ce texte sera remplacé par le votre." rows="100">
+    <form class="col-8">
+        <textarea name="editor1" id="editor1" placeholder="Ce texte sera remplacé par le votre." rows="100">
 
-            </textarea>
-        </form>
-        <div class="col-4">
-            <div class="alert alert-primary" role="alert">
-                Options du document
-            </div>
+        </textarea>
+        <button class="btn btn-primary m-2" type="button">Publier</button>
+    </form>
+    <div class="col-4">
+        <div class="alert alert-primary" role="alert">
+            Options du document
+        </div>
 
-            <div class="accordeon" id="optionDocument">
-                <div class="card">
-                    <div class="card-header" id="EnteteUN">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
-                                Status et visibilité
-                            </button>
-                        </h2>
-                    </div>
+        <div class="accordeon" id="optionDocument">
+            <div class="card">
+                <div class="card-header" id="EnteteUN">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Status et visibilité
+                        </button>
+                    </h2>
+                </div>
 
-                    <div id="collapseOne" class="collapse" aria-labelledby="EnteteUN" data-parent="#optionDocument">
-                        <div class="card-body">
-                            Visibilité: <u>Public</u><br>
-                            Statut: <u>Brouillon</u>
-                        </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="EnteteUN" data-parent="#optionDocument">
+                    <div class="card-body">
+                        Visibilité: <u>Public</u><br>
+                        Statut: <u>Brouillon</u>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="EnteteDEUX">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Catégories et tags
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="EnteteDEUX" data-parent="#optionDocument">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                    <label class="col-5" for="Categorie">Catégories:</label>
-                                    <input class="col-7" type="text" name="Categorie" id="Categorie">
-                                </div>
-                                <div class="row">
-                                    <label class="col-5" for="Tags">Tags:</label>
-                                    <input class="col-7" type="text" name="Tags" id="Tags">
-                                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="EnteteDEUX">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Catégories et tags
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="EnteteDEUX" data-parent="#optionDocument">
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <label class="col-5" for="Categorie">Catégories:</label>
+                                <input class="col-7" type="text" name="Categorie" id="Categorie">
+                            </div>
+                            <div class="row">
+                                <label class="col-5" for="Tags">Tags:</label>
+                                <input class="col-7" type="text" name="Tags" id="Tags">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="EnteteTROIS">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Image à la une
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="EnteteTROIS"
-                        data-parent="#optionDocument">
-                        <div class="card-body">
-                            <label for="ImageUne">Ajouter une image à la UNE</label>
-                            <input type="file" name="ImageUne" id="ImageUne"><br>
-                            <button class="btn btn-primary m-2" type="button">Ajouter</button>
-                        </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="EnteteTROIS">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Image à la une
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="EnteteTROIS"
+                    data-parent="#optionDocument">
+                    <div class="card-body">
+                        <label for="ImageUne">Ajouter une image à la UNE</label>
+                        <input type="file" name="ImageUne" id="ImageUne"><br>
+                        <button class="btn btn-primary m-2" type="button">Ajouter</button>
                     </div>
                 </div>
             </div>
-
         </div>
+
     </div>
 </div>
-
-
-
-
+</div>
 <!--#include file="partials/footer.shtml" -->

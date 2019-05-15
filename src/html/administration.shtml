@@ -1,5 +1,5 @@
 <!--#include file="partials/header.shtml" -->
-<div class="container">
+<div class="container marge">
   <div class="row align-items-center">
     <nav class="col-12 sticky-top navbar-light bg-light navbar navbar-expand-lg mb-5">
       <a class="navbar-brand" href="administration.html">Tableau de bord</a>
@@ -69,13 +69,13 @@
       </caption>
       <thead>
         <tr>
-          <th>Id</th>
-          <th>Image</th>
-          <th>Titre</th>
-          <th>Statut</th>
-          <th>Author</th>
-          <th>Commentaire</th>
-          <th>Date</th>
+          <th width="2%">Id</th>
+          <th width="35%">Image</th>
+          <th width="20%">Titre</th>
+          <th width="10%">Statut</th>
+          <th width="10%">Author</th>
+          <th width="13%">Commentaire</th>
+          <th width="10%">Date</th>
         </tr>
       </thead>
       <tbody>
@@ -138,12 +138,11 @@
   </div>
   <div class="btn-group col-4 offset-4" role="group" aria-label="Basic example">
     <button type="button" class="btn btn-primary">
-      <</button> <button type="button" class="btn btn-primary">1
+      </button> <button type="button" class="btn btn-primary">1
     </button>
     <button type="button" class="btn btn-primary">2</button>
     <button type="button" class="btn btn-primary">3</button>
     <button type="button" class="btn btn-primary">></button>
   </div>
 </div>
-
 <!--#include file="partials/footer.shtml" -->

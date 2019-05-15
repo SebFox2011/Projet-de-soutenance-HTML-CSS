@@ -1,5 +1,5 @@
 <!--#include file="partials/header.shtml" -->
-<div class="container">
+<div class="container marge">
    <div class=row">
       <nav class="col-12 navbar-static-top navbar-light bg-primary navbar navbar-expand-lg  mb-5">
          <a class="navbar-brand" href="#">Accueil</a>
@@ -90,5 +90,4 @@
       </div>
    </div>
 </div>
-
 <!--#include file="partials/footer.shtml" -->

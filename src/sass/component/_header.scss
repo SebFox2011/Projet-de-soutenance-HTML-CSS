@@ -12,3 +12,13 @@ form{
     border-radius: 20px;
 
 }*/
+  /* Permet de fixer le bandeau au top*/
+  .fixetop {
+    position: top;
+    top: 0;
+    z-index: 1;
+}
+
+.marge{
+    margin-top: 130px;
+}
