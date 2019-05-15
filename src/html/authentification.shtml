@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-center">
             <form class="form-horizontal border border-primary rounded" action="administration.html" method="post">
-                <fieldset>
+                <fieldset class="p-2 ">
                     <!-- Form Name -->
                     <legend class="col-12 text-center mb-2">Formulaire d'Authentification</legend>
                     <!-- Entrer le login-->

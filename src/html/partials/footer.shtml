@@ -1,14 +1,14 @@
-<footer class="container mt-5">
+<footer class="container-fluid mt-5">
   <div class="row align-items-center">
     <p class="col-12 text-right">Design by me wih love :)</p>
   </div>
 </footer>
-
+<!--script nécessaire pour faire fonctionner CKeditor-->
 <script src="../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
 <script>
   ClassicEditor
     .create(document.querySelector('#editor1'), {
-      toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote','|'],
+      toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'blockQuote', '|'],
       heading: {
         options: [
           { model: 'paragraph', title: 'Paragraph', class: 'ck-heading_paragraph' },
@@ -21,6 +21,13 @@
       console.log(error);
     });
 </script>
+
+<!-- 3 scripts nécessaires pour faire fonctionner le menu hamburger et l'accordéon -->
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/popper.js/dist/popper.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

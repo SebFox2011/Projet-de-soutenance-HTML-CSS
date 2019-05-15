@@ -17,7 +17,10 @@
             <a class="nav-link" href="#">Médias</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Utilisateurs <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Utilisateurs <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index1.html">Site Web</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="authentification.html">Déconnexion</a>
@@ -33,23 +36,34 @@
 
 
   <div class="row align-items-center border rounded mb-5">
-    <div class="col-4">
+    <div class="col-12 col-sm-4">
       <h2>Gestions des contenus</h2>
     </div>
-    <div class="col-8">
-      <a class="col-2 btn btn-primary" href="edition.html" role="button">Ajouter</a>
-      <a class="col-2 btn btn-primary" href="#" role="button">Supprimer</a>
-      <a class="col-2 btn btn-primary" href="#" role="button">Modifier</a>
-      <a class="col-2 btn btn-primary" href="#" role="button">Publier</a>
+    <div class="col-12 col-sm-8 text-right">
+      <a class="col-3 col-sm-2 btn btn-primary" href="edition.html" role="button">Ajouter</a>
+      <a class="col-3 col-sm-2 btn btn-primary" href="#" role="button">Supprimer</a>
+      <a class="col-3 col-sm-2 btn btn-primary" href="#" role="button">Modifier</a>
+      <a class="col-3 col-sm-2 btn btn-primary" href="#" role="button">Publier</a>
     </div>
   </div>
   <div class="row align-items-center border rounded  mb-5">
     <h2 class="col-2">Filtres</h2>
-    <input type="text" class="col-4">
-    <button class="col-2 btn-primary">Rechercher</button>
+    <div class="col-10 text-right">
+      <input type="text" class="col-4">
+      <button class="col-3 btn btn-primary">Rechercher</button>
+    </div>
   </div>
+
+  <!--Tableau contenant les articles avec les champs suivants:
+    Id
+    Image
+    Titre
+    Statut
+    Author
+    Commentaire
+    Date -->
   <div class="row align-items-center">
-    <table class="table table-bordered table-striped">
+    <table class="table table-bordered table-hover table-responsive table-striped">
       <caption>
         <h4 class="text-center">Gestion des contenus</h4>
       </caption>
@@ -123,12 +137,12 @@
     </table>
   </div>
   <div class="btn-group col-4 offset-4" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-dark">
-      <</button> <button type="button" class="btn btn-dark">1
+    <button type="button" class="btn btn-primary">
+      <</button> <button type="button" class="btn btn-primary">1
     </button>
-    <button type="button" class="btn btn-dark">2</button>
-    <button type="button" class="btn btn-dark">3</button>
-    <button type="button" class="btn btn-dark">></button>
+    <button type="button" class="btn btn-primary">2</button>
+    <button type="button" class="btn btn-primary">3</button>
+    <button type="button" class="btn btn-primary">></button>
   </div>
 </div>
 
