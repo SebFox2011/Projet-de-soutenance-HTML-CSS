@@ -3,12 +3,26 @@
 <div class="row ">
 
     <form class="col-8">
-        <textarea name="editor1" id="editor1" placeholder="Ce texte sera remplacé par le votre." rows="100">
+            <div class="form-group">
+                    <label class="col-12 control-label" for="text_input">Titre du bon plan</label>
+                    <div class="col-12">
+                        <input id="text_input" name="titreBonPlan" type="text" placeholder="Titre du bon plan"
+                            class="form-control input-md" required="">
+                    </div>
+                    <label class="col-12 control-label" for="Auteur_input">Auteur</label>
+                    <div class="col-12">
+                        <input id="Auteur_input" name="auteur" type="text" placeholder="Auteur"
+                            class="form-control input-md" required="">
+                    </div>
+                </div>
+        <textarea name="editor1" id="editor1" placeholder="Ce texte sera remplacé par le votre.">
 
         </textarea>
         <button class="btn btn-primary m-2" type="button">Publier</button>
+        <a class="col-8 col-sm-3 btn btn-primary" href="administration.html" role="button">Retour aux articles</a>
+ 
     </form>
-    <div class="col-4">
+    <div class="col-12 col-sm-4">
         <div class="alert alert-primary" role="alert">
             Options du document
         </div>

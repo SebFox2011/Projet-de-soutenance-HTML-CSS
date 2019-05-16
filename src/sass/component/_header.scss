@@ -12,13 +12,17 @@ form{
     border-radius: 20px;
 
 }*/
-  /* Permet de fixer le bandeau au top*/
-  .fixetop {
+
+header{
+    background-image: url("../img/fleurs.jpeg") ;
+}
+/* Permet de fixer le bandeau au top*/
+.fixetop {
     position: top;
     top: 0;
     z-index: 1;
 }
 
 .marge{
-    padding-top: 130px;
+    padding-top: 128px;
 }

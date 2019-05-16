@@ -4,13 +4,32 @@
 body{
     background-color: rgb(221, 218, 215);
 }
-header{
-    background-color: rgb(255, 255, 255);
-}
+
 p{
     margin: 0;
 }
 
 main{
     min-height: calc(100vh - 78px);
+    background-image: url("../img/fond-d-écran-de-lumières-vintage.jpg");
+    background-position: center center;
+    background-size: stretch;
+}
+
+.navbar
+        {
+            border:2px solid #000;
+        }
+
+/*UN poeu de SASS*/
+.table{
+    border:2px solid #000;  
+    font-size: 20px;
+    & td,th{
+        border:1px solid #000;
+    }
+}
+
+.ck-editor__editable_inline{
+    height:200px;
 }

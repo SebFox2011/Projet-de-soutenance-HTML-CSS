@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" href="img/icone.png" type="image/png">
+  <link rel="shortcut icon" href="img/Rennes-Metropole-logo.png" type="image/png">
   <title>Bons Plans Rennes</title>
 </head>
 
@@ -15,7 +15,7 @@
     <div class="row align-items-center">
       <h1 class="col-12 col-sm-8 text-right">Bons Plans Rennes</h1>
       <div class="col-12 col-sm-4">
-        <img class="float-right" src="img/icone.png" alt="Icone du bandeau d entete">
+        <img class="float-right" src="img/Rennes-Metropole-logo.png" width="25%" alt="Icone du bandeau d entete">
       </div>
     </div>
   </header>

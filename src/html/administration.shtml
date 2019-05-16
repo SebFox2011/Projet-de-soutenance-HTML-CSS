@@ -1,6 +1,6 @@
 <!--#include file="partials/header.shtml" -->
 <div class="row align-items-center">
-  <nav class="col-12 sticky-top navbar-light bg-light navbar navbar-expand-lg mb-5">
+  <nav class="col-12 sticky-top navbar-light bg-light navbar navbar-expand-lg rounded mb-5">
     <a class="navbar-brand" href="administration.html">Tableau de bord</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
 </div>
 
 
-<div class="row align-items-center border rounded mb-5">
+<div class="row align-items-center border border-dark rounded mb-5">
   <div class="col-12 col-sm-4">
     <h2>Gestions des contenus</h2>
   </div>
@@ -45,7 +45,7 @@
     <a class="col-3 col-sm-2 btn btn-primary" href="#" role="button">Publier</a>
   </div>
 </div>
-<div class="row align-items-center border rounded  mb-5">
+<div class="row align-items-center border border-dark rounded  mb-5">
   <h2 class="col-2">Filtres</h2>
   <div class="col-10 text-right">
     <input type="text" class="col-4">
@@ -72,7 +72,7 @@
         <th width="35%">Image</th>
         <th width="20%">Titre</th>
         <th width="10%">Statut</th>
-        <th width="10%">Author</th>
+        <th width="10%">Auteur</th>
         <th width="13%">Commentaire</th>
         <th width="10%">Date</th>
       </tr>
