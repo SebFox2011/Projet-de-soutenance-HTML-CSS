@@ -1,8 +1,5 @@
 <!--#include file="partials/header.shtml" -->
-<div class="container marge">
-
-
-        <h3 class="text-center m-5">Edition de l'article</h3>
+<h3 class="text-center m-5">Edition de l'article</h3>
 <div class="row ">
 
     <form class="col-8">
@@ -67,8 +64,7 @@
                         </button>
                     </h2>
                 </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="EnteteTROIS"
-                    data-parent="#optionDocument">
+                <div id="collapseThree" class="collapse" aria-labelledby="EnteteTROIS" data-parent="#optionDocument">
                     <div class="card-body">
                         <label for="ImageUne">Ajouter une image à la UNE</label>
                         <input type="file" name="ImageUne" id="ImageUne"><br>
@@ -79,6 +75,5 @@
         </div>
 
     </div>
-</div>
 </div>
 <!--#include file="partials/footer.shtml" -->
