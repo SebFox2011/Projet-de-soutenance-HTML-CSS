@@ -16,12 +16,16 @@ main{
     background-size: stretch;
 }
 
+/* Navbar fixée en top juste en dessous du bandeau*/
 .navbar
         {
             border:2px solid #000;
+            position: fixed;
+            top: 75px;
+            z-index: 1;
         }
 
-/*UN poeu de SASS*/
+/*UN poeu de SASS pour que les lignes du tableau de la page admin soient noir*/
 .table{
     border:2px solid #000;  
     font-size: 20px;
@@ -29,7 +33,7 @@ main{
         border:1px solid #000;
     }
 }
-
+/* hauteur en pixel de la zone d'édition du ckeditor*/
 .ck-editor__editable_inline{
     height:200px;
 }

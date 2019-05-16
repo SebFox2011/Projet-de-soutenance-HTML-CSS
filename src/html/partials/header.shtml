@@ -13,10 +13,10 @@
 <body>
   <header class="container-fluid fixed-top">
     <div class="row align-items-center">
-      <h1 class="col-12 col-sm-8 text-right">Bons Plans Rennes</h1>
-      <div class="col-12 col-sm-4">
-        <img class="float-right" src="img/Rennes-Metropole-logo.png" width="25%" alt="Icone du bandeau d entete">
+      <h1 class="col-8 col-sm-8 text-right">Bons Plans Rennes</h1>
+      <div class="col-4 col-sm-4">
+        <img class="float-right" src="img/Rennes-Metropole-logo.png" width="75px" alt="Icone du bandeau d entete">
       </div>
     </div>
   </header>
-  <main class= "container-fluid pb-4 marge">
+  <main class="container-fluid pb-4 marge">

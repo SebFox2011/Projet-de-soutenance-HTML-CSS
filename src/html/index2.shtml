@@ -1,4 +1,5 @@
 <!--#include file="partials/header.shtml" -->
+<!--Vue de détail d'un bon plan -->
 <div class="row align-items-center mb-2">
      <div class="col-12 col-xs-8 col-md-6" contain"><img src="img/Rennes_Jardin_Confluence.jpg" alt="" width="100%">
      </div>

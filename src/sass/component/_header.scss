@@ -1,18 +1,3 @@
-/*header{
-    color: rgb(255, 221, 127);
-}
-body{
-    background-image: url(../img/concert-fete.jpg);
-    background-color: rgba(37, 25, 25, 0.589);
-}
-form{
-    background-color: rgb(179, 112, 112);
-    border: 6px lightcoral double;
-    background-size: contain;
-    border-radius: 20px;
-
-}*/
-
 header{
     background-image: url("../img/fleurs.jpeg") ;
 }
@@ -22,7 +7,14 @@ header{
     top: 0;
     z-index: 1;
 }
-
+/* marge pour que le corps de plage commence bien en dessous du beandeau, défini par la hauteur en pixel de l'image*/
 .marge{
-    padding-top: 128px;
+    padding-top: 75px;
+}
+/* Gere l'affichage du bandeau pour les petits écrans*/
+@media screen and (max-width: 588px) {
+    h1{
+        font-size: 30px;
+    }
+
 }

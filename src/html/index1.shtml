@@ -1,4 +1,6 @@
 <!--#include file="partials/header.shtml" -->
+<!--Page d'accueil visible du public sur les bons plans-->
+<!--Navbar client avec menu d'orientation -->
 <div class=row">
    <nav class="col-12 navbar-static-top navbar-light bg-primary navbar navbar-expand-lg  mb-5">
       <a class="navbar-brand" href="#">Accueil</a>
@@ -35,6 +37,7 @@
    </nav>
 </div>
 </div>
+<!--Visualisation de 4 bons plans par page-->
 <h3 class="text-center mb-5">Semaine du 10 au 20 mai 2019</h3>
 <div class="container">
    <div class="row align-items-center mb-2">

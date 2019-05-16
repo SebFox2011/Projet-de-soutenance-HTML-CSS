@@ -1,12 +1,12 @@
 <!--#include file="partials/header.shtml" -->
-<div class="row align-items-center">
+<div class="row align-items-center marge">
+  <!--Navbar menu du portail d'administration-->
   <nav class="col-12 sticky-top navbar-light bg-light navbar navbar-expand-lg rounded mb-5">
     <a class="navbar-brand" href="administration.html">Tableau de bord</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -33,7 +33,7 @@
   </nav>
 </div>
 
-
+<!--Boutons d'actions sur les articles crées-->
 <div class="row align-items-center border border-dark rounded mb-5">
   <div class="col-12 col-sm-4">
     <h2>Gestions des contenus</h2>
@@ -135,9 +135,10 @@
     </tbody>
   </table>
 </div>
+<!--Boutons de navigation entre pages-->
 <div class="btn-group col-4 offset-4" role="group" aria-label="Basic example">
   <button type="button" class="btn btn-primary">
-  </button> <button type="button" class="btn btn-primary">1
+    <</button> <button type="button" class="btn btn-primary">1
   </button>
   <button type="button" class="btn btn-primary">2</button>
   <button type="button" class="btn btn-primary">3</button>
