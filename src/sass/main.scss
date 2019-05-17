@@ -10,10 +10,10 @@ p{
 }
 
 main{
-    min-height: calc(100vh - 78px);
     background-image: url("../img/fond-d-écran-de-lumières-vintage.jpg");
     background-position: center center;
     background-size: stretch;
+    min-height: calc(100vh - 78px);
 }
 
 /* Navbar fixée en top juste en dessous du bandeau*/

@@ -2,7 +2,7 @@
 <!--Page d'accueil visible du public sur les bons plans-->
 <!--Navbar client avec menu d'orientation -->
 <div class=row">
-   <nav class="col-12 navbar-static-top navbar-light bg-primary navbar navbar-expand-lg  mb-5">
+   <nav class="col-12 navbar-static-top navbar-light bg-warning navbar navbar-expand-lg  mb-5">
       <a class="navbar-brand" href="#">Accueil</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
          </ul>
          <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Votre Recherche" aria-label="Search">
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Rechercher</button>
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Rechercher</button>
          </form>
       </div>
    </nav>
@@ -49,7 +49,7 @@
                <h4>Balade au bord de la Vilaine</h4>
                <span><em> 10 mai 2019 de 10h à 18h</em></span>
                <p>Lorem ipsum dolor sit amet.</p>
-               <a class="btn btn-primary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
+               <a class="btn btn-secondary btn-sm btn-block" href="index2.html" role="button">En savoir plus ...</a>
             </div>
          </div>
       </div>
@@ -60,7 +60,7 @@
                <h4>Conférence</h4><br>
                <span><em>12 mai 2019 à 20h</em></span>
                <p>Lorem, ipsum dolor.</p>
-               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+               <a class="btn btn-secondary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
          </div>
       </div>
@@ -74,7 +74,7 @@
                <h4>Visite du centre ville de Rennes</h4>
                <span><em>14 mai 2019 de 11h à 20h</em></span>
                <p>Lorem, ipsum.</p>
-               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+               <a class="btn btn-secondary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
          </div>
       </div>
@@ -86,7 +86,7 @@
                <h4>Visite du Parlement</h4><br>
                <span><em>16 mai 2019 de 14h à 16h</em></span>
                <p>Lorem, ipsum dolor.</p>
-               <a class="btn btn-primary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
+               <a class="btn btn-secondary btn-sm btn-block" href="#" role="button">En savoir plus ...</a>
             </div>
          </div>
       </div>

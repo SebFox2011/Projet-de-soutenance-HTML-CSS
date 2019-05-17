@@ -24,6 +24,6 @@
      facilis.
 </p>
 <div class="col-md-4 offset-md-4">
-     <a class="btn btn-primary btn-sm btn-block" href="index1.html" role="button">Retour aux bons plans</a>
+     <a class="btn btn-secondary btn-sm btn-block" href="index1.html" role="button">Retour aux bons plans</a>
 </div>
 <!--#include file="partials/footer.shtml" -->
